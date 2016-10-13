@@ -1,0 +1,193 @@
+/****
+	* Sudden Impact Standard CSS Classes
+	*
+	* Last Updated: 09/09/2016
+	*********************************************/
+
+
+
+
+
+/* BOOTSTRAP ADDITIONS */
+/****
+	* Classes added to extend the functionality 
+	* Bootstrap. These classes will not have the
+	* SI_ prefix, and will follow Bootstrap's
+	* syntax model.
+	*********************************************/
+.text-xs-left { text-align: left; }
+.text-xs-right { text-align: right; }
+.text-xs-center { text-align: center; }
+.text-xs-justify { text-align: justify; }
+@media (min-width: 768px) {
+  .text-sm-left { text-align: left; }
+  .text-sm-right { text-align: right; }
+  .text-sm-center { text-align: center; }
+  .text-sm-justify { text-align: justify; }
+}
+@media (min-width: 992px) {
+  .text-md-left { text-align: left; }
+  .text-md-right { text-align: right; }
+  .text-md-center { text-align: center; }
+  .text-md-justify { text-align: justify; }
+}
+@media (min-width: 1200px) {
+  .text-lg-left { text-align: left; }
+  .text-lg-right { text-align: right; }
+  .text-lg-center { text-align: center; }
+  .text-lg-justify { text-align: justify; }
+}
+.five-row .col-xs-1, .five-row .col-sm-1, .five-row .col-md-1, .five-row .col-lg-1, .five-row .col-xl-1 { width: 20%; *width: 20%; }
+.five-row .col-xs-2, .five-row .col-sm-2, .five-row .col-md-2, .five-row .col-lg-2, .five-row .col-xl-2 { width: 40%; *width: 40%; }
+.five-row .col-xs-3, .five-row .col-sm-3, .five-row .col-md-3, .five-row .col-lg-3, .five-row .col-xl-3 { width: 60%; *width: 60%; }
+.five-row .col-xs-4, .five-row .col-sm-4, .five-row .col-md-4, .five-row .col-lg-4, .five-row .col-xl-4 { width: 80%; *width: 80%; }
+.five-row .col-xs-5, .five-row .col-sm-5, .five-row .col-md-5, .five-row .col-lg-5, .five-row .col-xl-5 { width: 100%; *width: 100%; }
+.seven-row .col-xs-1, .seven-row .col-sm-1, .seven-row .col-md-1, .seven-row .col-lg-1, .seven-row .col-xl-1 { width: 14.28571428571%; *width: 14.28571428571%; }
+.seven-row .col-xs-2, .seven-row .col-sm-2, .seven-row .col-md-2, .seven-row .col-lg-2, .seven-row .col-xl-2 { width: 28.57142857142%; *width: 28.57142857142%; }
+.seven-row .col-xs-3, .seven-row .col-sm-3, .seven-row .col-md-3, .seven-row .col-lg-3, .seven-row .col-xl-3 { width: 42.85714285714%; *width: 42.85714285714%; }
+.seven-row .col-xs-4, .seven-row .col-sm-4, .seven-row .col-md-4, .seven-row .col-lg-4, .seven-row .col-xl-4 { width: 57.14285714285%; *width: 57.14285714285%; }
+.seven-row .col-xs-5, .seven-row .col-sm-5, .seven-row .col-md-5, .seven-row .col-lg-5, .seven-row .col-xl-5 { width: 71.42857142857%; *width: 71.42857142857%; }
+.seven-row .col-xs-6, .seven-row .col-sm-6, .seven-row .col-md-6, .seven-row .col-lg-6, .seven-row .col-xl-6 { width: 85.71428571428%; *width: 85.71428571428%; }
+.seven-row .col-xs-7, .seven-row .col-sm-7, .seven-row .col-md-7, .seven-row .col-lg-7, .seven-row .col-xl-7 { width: 100%; *width: 100%; }
+.nine-row .col-xs-1, .nine-row .col-sm-1, .nine-row .col-md-1, .nine-row .col-lg-1, .nine-row .col-xl-1 { width: 11.11111111111%; *width: 11.11111111111%; }
+.nine-row .col-xs-2, .nine-row .col-sm-2, .nine-row .col-md-2, .nine-row .col-lg-2, .nine-row .col-xl-2 { width: 22.22222222222%; *width: 22.22222222222%; }
+.nine-row .col-xs-3, .nine-row .col-sm-3, .nine-row .col-md-3, .nine-row .col-lg-3, .nine-row .col-xl-3 { width: 33.33333333333%; *width: 33.33333333333%; }
+.nine-row .col-xs-4, .nine-row .col-sm-4, .nine-row .col-md-4, .nine-row .col-lg-4, .nine-row .col-xl-4 { width: 44.44444444444%; *width: 44.44444444444%; }
+.nine-row .col-xs-5, .nine-row .col-sm-5, .nine-row .col-md-5, .nine-row .col-lg-5, .nine-row .col-xl-5 { width: 55.55555555555%; *width: 55.55555555555%; }
+.nine-row .col-xs-6, .nine-row .col-sm-6, .nine-row .col-md-6, .nine-row .col-lg-6, .nine-row .col-xl-6 { width: 66.66666666666%; *width: 66.66666666666%; }
+.nine-row .col-xs-7, .nine-row .col-sm-7, .nine-row .col-md-7, .nine-row .col-lg-7, .nine-row .col-xl-7 { width: 77.77777777777%; *width: 77.77777777777%; }
+.nine-row .col-xs-8, .nine-row .col-sm-8, .nine-row .col-md-8, .nine-row .col-lg-8, .nine-row .col-xl-8 { width: 88.88888888888%; *width: 88.88888888888%; }
+.nine-row .col-xs-9, .nine-row .col-sm-9, .nine-row .col-md-9, .nine-row .col-lg-9, .nine-row .col-xl-9 { width: 100%; *width: 100%; }
+.eleven-row .col-xs-1, .eleven-row .col-sm-1, .eleven-row .col-md-1, .eleven-row .col-lg-1, .eleven-row .col-xl-1 { width: 9.09090909090%; *width: 9.09090909090%; }
+.eleven-row .col-xs-2, .eleven-row .col-sm-2, .eleven-row .col-md-2, .eleven-row .col-lg-2, .eleven-row .col-xl-2 { width: 18.18181818181%; *width: 18.18181818181%; }
+.eleven-row .col-xs-3, .eleven-row .col-sm-3, .eleven-row .col-md-3, .eleven-row .col-lg-3, .eleven-row .col-xl-3 { width: 27.27272727272%; *width: 27.27272727272%; }
+.eleven-row .col-xs-4, .eleven-row .col-sm-4, .eleven-row .col-md-4, .eleven-row .col-lg-4, .eleven-row .col-xl-4 { width: 36.36363636363%; *width: 36.36363636363%; }
+.eleven-row .col-xs-5, .eleven-row .col-sm-5, .eleven-row .col-md-5, .eleven-row .col-lg-5, .eleven-row .col-xl-5 { width: 45.45454545454%; *width: 45.45454545454%; }
+.eleven-row .col-xs-6, .eleven-row .col-sm-6, .eleven-row .col-md-6, .eleven-row .col-lg-6, .eleven-row .col-xl-6 { width: 54.54545454545%; *width: 54.54545454545%; }
+.eleven-row .col-xs-7, .eleven-row .col-sm-7, .eleven-row .col-md-7, .eleven-row .col-lg-7, .eleven-row .col-xl-7 { width: 63.63636363636%; *width: 63.63636363636%; }
+.eleven-row .col-xs-8, .eleven-row .col-sm-8, .eleven-row .col-md-8, .eleven-row .col-lg-8, .eleven-row .col-xl-8 { width: 72.72727272727%; *width: 72.72727272727%; }
+.eleven-row .col-xs-9, .eleven-row .col-sm-9, .eleven-row .col-md-9, .eleven-row .col-lg-9, .eleven-row .col-xl-9 { width: 81.81818181818%; *width: 81.81818181818%; }
+.eleven-row .col-xs-10, .eleven-row .col-sm-10, .eleven-row .col-md-10, .eleven-row .col-lg-10, .eleven-row .col-xl-10 { width: 90.90909090909%; *width: 90.90909090909%; }
+.eleven-row .col-xs-11, .eleven-row .col-sm-11, .eleven-row .col-md-11, .eleven-row .col-lg-11, .eleven-row .col-xl-11 { width: 100%; *width: 100%; }
+
+
+
+
+
+/* MOBILE FIRST STRATEGY */
+/****
+	* These are common classes used by SI 
+	* developers for their respective screen size
+	* and up. Developers should avoid using the 
+	* desktop first strategy.
+	*********************************************/
+.SI_longBreak-10-xs { margin-bottom: 10px; }
+.SI_longBreak-20-xs { margin-bottom: 20px; }
+.SI_longBreak-30-xs { margin-bottom: 30px; }
+.SI_longBreak-40-xs { margin-bottom: 40px; }
+.SI_longBreak-50-xs { margin-bottom: 50px; }
+.SI_longBreak-60-xs { margin-bottom: 60px; }
+.SI_longBreak-70-xs { margin-bottom: 70px; }
+.SI_longBreak-80-xs { margin-bottom: 80px; }
+.SI_longBreak-90-xs { margin-bottom: 90px; }
+.SI_longBreak-100-xs { margin-bottom: 100px; }
+.SI_verticalAlign-xs { display: flex; align-items: center; }
+br[class*="SI_breakToSpace-"] { content: normal; }
+	br[class*="SI_breakToSpace-"]:after { content: normal; }
+br[class*="SI_spaceToBreak-"] { content: " "; }
+	br[class*="SI_spaceToBreak-"]:after { content: " "; }
+br.SI_breakToSpace-xs { content: " "; }
+	br.SI_breakToSpace-xs:after { content: " "; }
+br.SI_spaceToBreak-xs { content: normal; }
+	br.SI_spaceToBreak-xs:after { content: normal; }
+/* Small devices (landscape phones, 544px and up) */
+@media (min-width: 544px) { 
+	.SI_longBreak-10-sm { margin-bottom: 10px; }
+	.SI_longBreak-20-sm { margin-bottom: 20px; }
+	.SI_longBreak-30-sm { margin-bottom: 30px; }
+	.SI_longBreak-40-sm { margin-bottom: 40px; }
+	.SI_longBreak-50-sm { margin-bottom: 50px; }
+	.SI_longBreak-60-sm { margin-bottom: 60px; }
+	.SI_longBreak-70-sm { margin-bottom: 70px; }
+	.SI_longBreak-80-sm { margin-bottom: 80px; }
+	.SI_longBreak-90-sm { margin-bottom: 90px; }
+	.SI_longBreak-100-sm { margin-bottom: 100px; }
+	.SI_verticalAlign-sm { display: flex; align-items: center; }
+	br.SI_breakToSpace-sm { content: " "; }
+		br.SI_breakToSpace-sm:after { content: " "; }
+	br.SI_spaceToBreak-sm { content: normal; }
+		br.SI_spaceToBreak-sm:after { content: normal; }
+}
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+	.SI_longBreak-10-md { margin-bottom: 10px; }
+	.SI_longBreak-20-md { margin-bottom: 20px; }
+	.SI_longBreak-30-md { margin-bottom: 30px; }
+	.SI_longBreak-40-md { margin-bottom: 40px; }
+	.SI_longBreak-50-md { margin-bottom: 50px; }
+	.SI_longBreak-60-md { margin-bottom: 60px; }
+	.SI_longBreak-70-md { margin-bottom: 70px; }
+	.SI_longBreak-80-md { margin-bottom: 80px; }
+	.SI_longBreak-90-md { margin-bottom: 90px; }
+	.SI_longBreak-100-md { margin-bottom: 100px; }
+	.SI_verticalAlign-md { display: flex; align-items: center; }
+	br.SI_breakToSpace-md { content: " "; }
+		br.SI_breakToSpace-md:after { content: " "; }
+	br.SI_spaceToBreak-md { content: normal; }
+		br.SI_spaceToBreak-md:after { content: normal; }
+}
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+	.SI_longBreak-10-lg { margin-bottom: 10px; }
+	.SI_longBreak-20-lg { margin-bottom: 20px; }
+	.SI_longBreak-30-lg { margin-bottom: 30px; }
+	.SI_longBreak-40-lg { margin-bottom: 40px; }
+	.SI_longBreak-50-lg { margin-bottom: 50px; }
+	.SI_longBreak-60-lg { margin-bottom: 60px; }
+	.SI_longBreak-70-lg { margin-bottom: 70px; }
+	.SI_longBreak-80-lg { margin-bottom: 80px; }
+	.SI_longBreak-90-lg { margin-bottom: 90px; }
+	.SI_longBreak-100-lg { margin-bottom: 100px; }
+	.SI_verticalAlign-lg { display: flex; align-items: center; }
+	br.SI_breakToSpace-lg { content: " "; }
+		br.SI_breakToSpace-lg:after { content: " "; }
+	br.SI_spaceToBreak-lg { content: normal; }
+		br.SI_spaceToBreak-lg:after { content: normal; }
+}
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+	.SI_longBreak-10-xl { margin-bottom: 10px; }
+	.SI_longBreak-20-xl { margin-bottom: 20px; }
+	.SI_longBreak-30-xl { margin-bottom: 30px; }
+	.SI_longBreak-40-xl { margin-bottom: 40px; }
+	.SI_longBreak-50-xl { margin-bottom: 50px; }
+	.SI_longBreak-60-xl { margin-bottom: 60px; }
+	.SI_longBreak-70-xl { margin-bottom: 70px; }
+	.SI_longBreak-80-xl { margin-bottom: 80px; }
+	.SI_longBreak-90-xl { margin-bottom: 90px; }
+	.SI_longBreak-100-xl { margin-bottom: 100px; }
+	.SI_verticalAlign-xl { display: flex; align-items: center; }
+	br.SI_breakToSpace-xl { content: " "; }
+		br.SI_breakToSpace-xl:after { content: " "; }
+	br.SI_spaceToBreak-xl { content: normal; }
+		br.SI_spaceToBreak-xl:after { content: normal; }
+}
+
+
+
+
+
+
+/* DESKTOP FIRST STRATEGY. */
+/* X-Small devices (phones, 544px and under) */
+@media (max-width: 543px) { 
+}
+/* Small devices (landscape phones, 768px and under) */
+@media (max-width: 767px) { 
+}
+/* Medium devices (tablets, 992px and under) */
+@media (max-width: 991px) { 
+}
+/* large devices (desktops, 1200px and under) */
+@media (max-width: 1199px) { 
+}

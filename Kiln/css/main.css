@@ -1,0 +1,20 @@
+/* BOOTSTRAP OVERRIDES */
+/****
+	* Common changes needed for Bootstrap's 
+	* defaults. Edit these to match the site's
+	* styling.
+	*********************************************/
+body, p, h1, h2, h3, h4, h5, h6, div, span, em, b, strong { font-family: helvetica, arial, sans-serif; color: white; }
+body { padding-top: 0px; padding-bottom: 0px; background-color: white; }
+textarea, input { -webkit-appearance: none; box-shadow: none; border: 0; outline: 0; }
+
+/* CUSTOM SITE STYLING */
+/****
+	* Begin writing your custom styling for the 
+	* site you are working on here. Remember to 
+	* choose a prefix for the site you are 
+	* working with that won't conflict with 
+	* other standards, such as SI_ and wp-.
+	*********************************************/
+
+
